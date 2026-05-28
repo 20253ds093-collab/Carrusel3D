@@ -31,7 +31,10 @@ document.getElementById("agregar").addEventListener("click", add_alumno);
 
 function create_alumno() {
     let nombre =document.getElementById("nombre").value;
-    let nuevo_alumno={nombre:nombre,edad:0,matricula:"", imagen:""};
+    let edad =document.getElementById("edad").value;
+    let matricula =document.getElementById("matricula").value;
+    let imagen =document.getElementById("imagen").value;
+    let nuevo_alumno={nombre:nombre,edad:edad,matricula:matricula, imagen:imagen};
     bd_alumnos.push(nuevo_alumno);
     document.getElementById("formulario").reset();
 }
