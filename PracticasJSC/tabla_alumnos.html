@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <table id="tabla_alumnos">
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Matrícula</th>
+                <th>Imagen</th>
+            </tr>
+        </table>
+        <br>
+        <button type="button" id="add">Agregar</button>
+        <hr>
+        <form action="#" method="post" id="AgregarAlumno">
+            <label for="nombre">Ingrese un nombre</label>
+            <input type="text" id="nombre" name="nombre">
+            <br>
+            <label for="edad">Ingrese una edad</label>
+            <input type="number" id="edad" name="edad">
+            <br>
+            <label for="matricula">Ingrese una matricua</label>
+            <input type="text" id="matricula" name="matricula">
+            <br>
+            <label for="imagen">Ingresa una imagen</label>
+            <input type="text" id="imagen" name="imagen">
+            <br>
+            <button type="button" id="Add_alumno">Agregar nuevo alumno a la BD</button>
+        </form>
+    </main>
+    <script src="js/tabla_alumnos.js"></script>
+</body>
+</html>
